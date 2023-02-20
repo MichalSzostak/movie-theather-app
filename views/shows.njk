@@ -1,0 +1,18 @@
+<div id="shows">
+  {% for show in shows %}
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">{{ show.title }}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Genre: {{ show.genre }}</h6>
+        <p class="card-text">{{ show.description }}</p>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="show-{{ show.id }}-watched" {% if show.UserShow.watched %}checked{% endif %}>
+          <label class="form-check-label" for="show-{{ show.id }}-watched">
+            Seen
+          </label>
+        </div>
+        <a href="#" class="card-link">Another link</a>
+      </div>
+    </div>
+  {% endfor %}  
+</div>

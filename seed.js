@@ -4,36 +4,42 @@ const {sequelize} = require('./db');
 // Seed data for users
 const users = [
   {
-    username: 'user1',
-    password: 'password1',
-    email: 'user1@example.com',
-    firstName: 'John'
+    username: 'michael',
+    password: 'password',
+    email: 'michael@example.com',
+    firstName: 'Michael',
+    lastName: 'Scott'
   },
   {
-    username: 'user2',
-    password: 'password2',
-    email: 'user2@example.com',
-    firstName: 'Jane'
+    username: 'jim',
+    password: 'password',
+    email: 'jim@example.com',
+    firstName: 'Jim',
+    lastName: 'Halpert'
   },
   {
-    username: 'user3',
-    password: 'password3',
-    email: 'user3@example.com',
-    firstName: 'Bob'
+    username: 'pam',
+    password: 'password',
+    email: 'pam@example.com',
+    firstName: 'Pam',
+    lastName: 'Beesly'
   },
   {
-    username: 'user4',
-    password: 'password4',
-    email: 'user4@example.com',
-    firstName: 'Alice'
+    username: 'dwight',
+    password: 'password',
+    email: 'dwight@example.com',
+    firstName: 'Dwight',
+    lastName: 'Schrute'
   },
   {
-    username: 'user5',
-    password: 'password5',
-    email: 'user5@example.com',
-    firstName: 'David'
+    username: 'andy',
+    password: 'password',
+    email: 'andy@example.com',
+    firstName: 'Andy',
+    lastName: 'Bernard'
   }
 ];
+
 
 // Seed data for shows
 const shows = [

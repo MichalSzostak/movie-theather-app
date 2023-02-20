@@ -1,0 +1,13 @@
+GET 
+all users
+one users
+shows watched by one users
+one showsshows of a specific genre
+
+PUT 
+update the status of a shows
+update the rating of the shows
+update to show if a user watched it
+
+DELETE 
+one show
